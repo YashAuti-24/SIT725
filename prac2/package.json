@@ -1,0 +1,22 @@
+{
+  "name": "sit725",
+  "version": "1.0.0",
+  "description": "sit725 prac2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashAuti-24/SIT725.git"
+  },
+  "author": "YashAuti-24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YashAuti-24/SIT725/issues"
+  },
+  "homepage": "https://github.com/YashAuti-24/SIT725#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
