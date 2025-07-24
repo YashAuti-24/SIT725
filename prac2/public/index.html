@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+<body>
+  <h3>Sum Calculator</h3>
+  <form action="/add" method="GET">
+    <div>
+      <label for="a">Enter Number :</label>
+      <input type="text" id="a" name="a" required>
+    </div>
+    <div>
+      <label for="b">Enter Number :</label>
+      <input type="text" id="b" name="b" required>
+    </div>
+    <button type="submit">Calculate Sum</button>
+  </form>
+  <h3>Square Calculator</h3>
+  <form action="/square" method="GET">
+    <label for="num">Enter a number:</label>
+    <input type="text" id="num" name="num" required>
+    <button type="submit">Calculate Square</button>
+  </form>
+</body>
+</html>
