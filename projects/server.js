@@ -26,11 +26,6 @@ const sampleProject = new Project({
     image: "deakin1.png",
     link: "About this campus",
   });
-const sampleProject = new Project({
-    title: "Geelong campus",
-    image: "deakin2.png",
-    link: "About this campus",
-  });
 
 app.get('/projects', async (req, res) => {
 const projects = await Project.find({});
