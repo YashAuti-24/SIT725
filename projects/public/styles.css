@@ -1,0 +1,29 @@
+.navbar-size {
+width: 95%;
+margin: 0 auto;
+}
+.user-image-size {
+height: 60px;
+margin: 4px 0;
+}
+.materialboxed-image {
+margin: 0 auto;
+height: 400px;
+}
+.click-me-button {
+background-color: orangered;
+margin-top: 50px;
+}
+.row
+{
+    background-color: #9684f2;
+}
+.col s4 center-align{
+    background-color: #9684f2;
+}
+.col s12 center-align{
+    background-color: #9684f2;
+}
+.container{
+    background-color: #9684f2;
+}
